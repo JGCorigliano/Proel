@@ -4113,6 +4113,7 @@ ol {
 
 .partner-single-logo {
     margin-right: 130px;
+    max-height: 60px;
 }
 
 .choose-us-grid-wrap {
