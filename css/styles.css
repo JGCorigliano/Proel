@@ -1,8 +1,9 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: sans-serif;
-}
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;}
 
 body {
     margin: 0;
@@ -119,7 +120,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace;
+    font-family: "Inter", sans-serif;
     font-size: 1em;
 }
 
@@ -212,13 +213,6 @@ td,
 th {
     padding: 0;
 }
-/* 
-@font-face {
-    font-family: webflow-icons;
-    src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-} */
 
 [class^="w-icon-"],
 [class*=" w-icon-"] {
@@ -271,7 +265,7 @@ body {
     color: #333;
     background-color: #fff;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -1143,7 +1137,7 @@ textarea.w-select {
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
     text-align: center;
     color: #999;
-    font-family: serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 12px;
     position: relative;
@@ -1391,7 +1385,7 @@ textarea.w-select {
 .w-slider-arrow-right {
     width: 80px;
     cursor: pointer;
-    color: #fff;
+    color: #00c97f;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-user-select: none;
@@ -1553,7 +1547,7 @@ textarea.w-select {
     -webkit-tap-highlight-color: transparent;
     background: rgba(0, 0, 0, .9);
     outline: 0;
-    font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -3506,7 +3500,7 @@ textarea.w-select {
 
 body {
     color: #484561;
-    font-family: Manrope, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
@@ -3516,7 +3510,7 @@ h1 {
     color: #100948;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter, sans-serif";
     font-size: 68px;
     font-weight: 600;
     line-height: 100%;
@@ -3526,7 +3520,7 @@ h2 {
     color: #0f0f0f;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 100%;
@@ -3536,7 +3530,7 @@ h3 {
     color: #0f0f0f;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 100%;
@@ -3546,7 +3540,7 @@ h4 {
     color: #0f0f0f;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 100%;
@@ -3556,7 +3550,7 @@ h5 {
     color: #0f0f0f;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 26px;
     font-weight: 600;
     line-height: 100%;
@@ -3566,7 +3560,7 @@ h6 {
     color: #0f0f0f;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 100%;
@@ -3575,7 +3569,7 @@ h6 {
 p {
     color: #484561;
     margin-bottom: 0;
-    font-family: Manrope, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 160%;
@@ -3646,13 +3640,24 @@ ol {
 .single-nav-link {
     color: #0f0f0f;
     text-transform: capitalize;
-    font-size: 23px;
+    text-decoration: none;
+    font-size: 24px;
     line-height: 120%;
     transition: all .35s ease-in;
 }
+.single-nav-link::after {
+    content: "";
+    background-color: #00c97f;
+    display: block;
+    margin: left;
+    height: 3px;
+    width: 0;
+    transition: all .35s ease-in;
+}
 
-.single-nav-link:hover {
+.single-nav-link:hover:after {
     color: #00c97f;
+    width: 100%;
 }
 
 .single-nav-link.dropdown {
@@ -4010,6 +4015,9 @@ ol {
     padding-bottom: 92px;
 }
 
+.section.trusted-partner {
+    padding-bottom: 120px;
+}
 .section.after-banner.trusted-partner {
     padding-bottom: 120px;
 }
@@ -4065,6 +4073,7 @@ ol {
 
 .section.history {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .section.preview-images {
@@ -4316,7 +4325,7 @@ ol {
 .wcu-list-details {
     color: #0f0f0f;
     /* text-transform: capitalize; */
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 120%;
@@ -4854,6 +4863,7 @@ ol {
     flex-direction: column;
     display: flex;
     overflow: hidden;
+    color: rebeccapurple;
 }
 
 .testimonial-blur-1 {
@@ -5135,7 +5145,7 @@ ol {
     color: #0f0f0f;
     text-transform: uppercase;
     align-items: center;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 120%;
@@ -5165,6 +5175,7 @@ ol {
 
 .footer {
     padding-top: 115px;
+    padding-bottom: 5px;
 }
 
 .footer.v2 {
@@ -5214,7 +5225,7 @@ ol {
     color: #0f0f0f;
     text-transform: capitalize;
     margin-bottom: 24px;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 120%;
@@ -5286,7 +5297,7 @@ ol {
 
 .footer-contact {
     color: #0f0f0f;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 120%;
@@ -5310,7 +5321,7 @@ ol {
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    font-family: "Fa brands 400", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     transition: all .35s ease-in;
     display: flex;
@@ -5741,7 +5752,7 @@ ol {
     color: #9f3eff;
     text-transform: capitalize;
     align-items: center;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 160%;
@@ -5946,7 +5957,7 @@ ol {
     color: #9f3eff;
     text-transform: capitalize;
     align-items: center;
-    font-family: Clashdisplay, sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 160%;
@@ -5965,44 +5976,27 @@ ol {
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 240.48px;
-    padding-bottom: 187.52px;
+    padding-top: 160.48px;
+    padding-bottom: 100.52px;
+    margin-bottom: 10px;
+    border-bottom-left-radius:2rem; 
+    border-bottom-right-radius:2rem; 
 }
 
-.inner-banner-droguerias {
+.inner-banner.droguerias {
     background-image: url("../assets/640dccce760bf37489895f45_Inner-Banner-Bg-Droguerías.jpg");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 240.48px;
-    padding-bottom: 187.52px;
 }
 
-.inner-banner-farmacias {
+.inner-banner.farmacias {
     background-image: url("../assets/640dccce760bf37489895f45_Inner-Banner-Bg-Farmacias.jpg");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 240.48px;
-    padding-bottom: 187.52px;
 }
 
-.inner-banner-OBSoc {
+.inner-banner.OBSoc {
     background-image: url("../assets/640dccce760bf37489895f45_Inner-Banner-Bg-OBSociales.jpg");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 240.48px;
-    padding-bottom: 187.52px;
 }
 
-.inner-banner-Internos {
+.inner-banner.Internos {
     background-image: url("../assets/640dccce760bf37489895f45_Inner-Banner-Bg-interno.jpg");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 240.48px;
-    padding-bottom: 187.52px;
 }
 
 .inner-banner.pricing,
@@ -6330,7 +6324,7 @@ ol {
     border-bottom-left-radius: 10px;
     position: absolute;
     top: auto;
-    bottom: -98px;
+    bottom: -97px;
     left: -85px;
     right: auto;
 }
@@ -6567,7 +6561,7 @@ ol {
     color: #9f3eff;
     text-transform: capitalize;
     align-items: center;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 160%;
@@ -6701,7 +6695,7 @@ ol {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    font-family: "Fa brands 400", sans-serif;
+    font-family: "Fa brands 400", "Inter", sans-serif;
     font-size: 18px;
     display: flex;
 }
@@ -7041,7 +7035,7 @@ ol {
 .connect-app-name {
     color: #fff;
     text-transform: capitalize;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 120%;
@@ -7323,7 +7317,7 @@ ol {
     letter-spacing: -.18px;
     text-transform: capitalize;
     margin-bottom: 24px;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay,"Inter", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 120%;
@@ -7657,7 +7651,7 @@ ol {
 }
 
 .font-title._2 {
-    font-family: Manrope, sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 110%;
 }
 
@@ -8324,7 +8318,7 @@ ol {
 .page-name {
     color: #000;
     text-transform: capitalize;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -8440,7 +8434,7 @@ ol {
 .checkout-field-label {
     color: #0f0f0f;
     margin-bottom: 10px;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 120%;
@@ -8583,7 +8577,7 @@ ol {
 .cart-item-name {
     color: #fff;
     margin-bottom: 12.85px;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
@@ -8607,7 +8601,7 @@ ol {
 
 .cart-item-remove {
     color: #fff;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay,"Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
@@ -8625,7 +8619,7 @@ ol {
 
 .cart-price {
     color: #fff;
-    font-family: Clashdisplay, sans-serif;
+    font-family: Clashdisplay, "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 100%;
@@ -14035,115 +14029,3 @@ ol {
         justify-self: center;
     }
 }
-/* 
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b2f6ca56e5e035d486c_ClashDisplay-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b2fb3edfb4245e3e4d3_ClashDisplay-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b2fd9735d597920f4c5_ClashDisplay-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b30571774b34a106967_ClashDisplay-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b3020fe670785bde7a0_ClashDisplay-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Clashdisplay';
-    src: url('../assets/63ff4b2f65c2f8751d82ccb2_ClashDisplay-Extralight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/63ff4ba7b3edfbfcd1e3eef9_Manrope-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/63ff4ba75d13fffb20997067_Manrope-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/63ff4ba7408121be028b2f0c_Manrope-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/63ff4ba7a86f0b0ead33e8fa_Manrope-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/63ff4ba6e7b161359aa1d928_Manrope-Bold.ttf') format('truetype'), url('../assets/63ff4ba66ca56e3e335d52ab_Manrope-ExtraBold.ttf') format('truetype'), url('../assets/63ff4ba6e7b161359aa1d928_Manrope-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fa 400';
-    src: url('../assets/63ff5ab336039b28879ccd63_fa-regular-400.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fa brands 400';
-    src: url('../assets/63ff5ab3948f04898e09b033_fa-brands-400.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fa solid 900';
-    src: url('../assets/63ff5ab35c070e1eaf1b7649_fa-solid-900.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-} */
