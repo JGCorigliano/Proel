@@ -52,6 +52,10 @@ a:hover {
     outline: 0;
 }
 
+.active-element{
+    border-bottom: 2px solid #00c98f;
+}
+
 abbr[title] {
     border-bottom: 1px dotted;
 }
@@ -3641,7 +3645,7 @@ ol {
     color: #0f0f0f;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 120%;
     transition: all .35s ease-in;
 }
@@ -5977,7 +5981,7 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 160.48px;
-    padding-bottom: 100.52px;
+    padding-bottom: 20.52px;
     margin-bottom: 10px;
     border-bottom-left-radius:2rem; 
     border-bottom-right-radius:2rem; 
