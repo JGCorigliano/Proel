@@ -4523,14 +4523,15 @@ ol {
 }
 
 .core-feature-single-tab-link {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(0 0 0 / 0%);
     border-radius: 10px;
     padding: 16px 20px;
+    box-shadow: 3px 3px 5px #9d9c9c;
 }
 
 .core-feature-single-tab-link.w--current {
     background-color: #fff;
-    box-shadow: 0 2px 18px rgba(168, 168, 168, .16);
+    box-shadow:  5px 5px 1px #9d9c9c;
 }
 
 .core-feature-tab-link-flex {
